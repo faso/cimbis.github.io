@@ -1,0 +1,42 @@
+h1, h2, h3, h4, h5, h6, p, li {
+	font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.top-banner {
+	background: url(../img/top_color.svg) no-repeat right bottom;
+	background-size: cover;
+	min-height: 450px;
+}
+
+.top-banner h1 {
+	color: #fff;
+	font-weight: 900;
+	font-size: 90px;
+	text-align: right;
+}
+
+.top-banner h2 {
+	color: #fff;
+	font-size: 20px;
+	text-align: right;
+}
+
+.h3 {
+	font-size: 50px;
+}
+
+.p {
+	font-size: 14px;
+}
+
+.dark-blue-bg {
+	background-color: #0071bc;	
+}
+
+.medium-blue-bg {
+	background-color: rgba(0,113,188, 0.7);
+}
+
+.light-blue-bg {
+	background-color: rgba(0,113,188, 0.3);
+}

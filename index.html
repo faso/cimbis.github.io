@@ -2,74 +2,76 @@
 <html lang="en-US">
 
 <head>
-	<meta charset="utf-8">
-	<title>Watersat</title>
+    <title>Watersat</title>
+
+    <meta charset="utf-8">
+    <!-- for proper rendering and touch zzooming-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:300,400,700,900" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </head>
-<!-- for proper rendering and touch zzooming-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Dependencies -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-<!-- Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:300,400,700,900" rel="stylesheet">
-<!--  -->
-<link href="css/main.css" rel="stylesheet">
 
 <body>
-	<div class="container-fluid top-banner">
-		<div class="row" style="max-width: 1200px; margin: 0 auto; padding-top: 80px;">
-			<div class="col-m-6">
-				<img src="./img/laptop.png" width="600" class="img-fluid">
-			</div>
-			<div class="col-m-6">
-				<h1>WATERSAT</h1>
-				<h2>Water reservoir volume monitoring using
-					<br>satellite altimetry and imaginery.</h2>
-			</div>
-		</div>
-	</div>
+    <div class="container-fluid top-banner" id="top">
+        <div class="row" style="max-width: 1200px; margin: 0 auto;">
+            <div class="offset-sm-3 col-sm-6">
+                <img src="./img/laptop.png" width="600" class="img-fluid">
+            </div>
+            <div class="offset-md-3 col-md-6">
+                <h1>WATERSAT</h1>
+                <h2>Water reservoir volume monitoring using
+                    <br>satellite altimetry and imaginery.</h2>
+            </div>
+        </div>
+    </div>
 
-	<div class="container-fluid" id="how-it-works">
-		<div class="row" style="max-width: 1200px; margin: 0 auto; padding-top: 80px;">
-			<div class="offset-sm-2 col-sm-3">
-				<h3>How it works</h3>
-				<p>Lorem ipsum</p>
-				<p>Lorem ipsum again</p>
-			</div>
-			<div class="offset-sm-1 col-sm-6">
-				<img src="./img/lake.svg" width="600">
-			</div>
-		</div>
-	</div>
+    <div class="container-fluid" id="how-it-works">
+        <div class="row" style="max-width: 1200px; margin: 0 auto; padding-top: 80px;">
+            <div class="col-md-12 col-sm-12 description">
+                <h3>How it works</h3>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum again</p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <img src="./img/lake.svg" width="600">
+            </div>
+        </div>
+    </div>
 
-	<div class="container-fluid light-blue-bg" id="features">
-		<div class="row" style="max-width: 1200px; margin: 0 auto;">
-			<div class="col">blue</div>
-		</div>
-	</div>
+    <div class="container-fluid light-blue-bg" id="features">
+        <div class="row" style="max-width: 1200px; margin: 0 auto;">
+            <div class="col">blue</div>
+        </div>
+    </div>
 
-	<div class="container-fluid" id="why">
-		<div class="row" style="max-width: 1200px; margin: 0 auto;">
-			<div class="col">white</div>
-		</div>
-	</div>
+    <div class="container-fluid" id="why">
+        <div class="row" style="max-width: 1200px; margin: 0 auto;">
+            <div class="col">white</div>
+        </div>
+    </div>
 
-	<div class="container-fluid medium-blue-bg" id="perfect-for">
-		<div class="row" style="max-width: 1200px; margin: 0 auto;">
-			<div class="col">blue</div>
-		</div>
-	</div>
+    <div class="container-fluid medium-blue-bg" id="perfect-for">
+        <div class="row" style="max-width: 1200px; margin: 0 auto;">
+            <div class="col">blue</div>
+        </div>
+    </div>
 
-	<div class="container-fluid" id="call-to-action">
-		<div class="row" style="max-width: 1200px; margin: 0 auto;">
-			<div class="col text-center">
-				<h3>Check out our prototype:</h3>
-				<a href="https://columbria.github.io/" class="cta-demo" role="button">DEMO</a>
-			</div>
-		</div>
-	</div>
+    <div class="container-fluid" id="call-to-action">
+        <div class="row" style="max-width: 1200px; margin: 0 auto;">
+            <div class="col text-center">
+                <h3>Check out our prototype:</h3>
+                <a href="https://columbria.github.io/" class="cta-demo" role="button">DEMO</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js" defer></script>
 </body>
 
 </html>

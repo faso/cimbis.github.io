@@ -75,6 +75,12 @@ h1, h2, h3, h4, h5, h6, p, li {
     margin-right: auto;
 }
 
+@media (max-width: 768px) { 
+    #how-it-works img {
+        max-width: 500px;
+    }
+}
+
 /* end how-it-works */
 
 /* features */
